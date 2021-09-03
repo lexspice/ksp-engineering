@@ -21,7 +21,7 @@
         { "name": "KerbalEngineerRedux" }
     ],
     "install": [ {
-        "find": "KSPEngineering",
+        "find": "GameData/KSPEngineering",
         "install_to": "GameData"
     } ]
 }
