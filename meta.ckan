@@ -1,0 +1,27 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "KSPEngineering",
+    "name":         "Kerbal Engineering",
+    "license":      "MIT",
+    "version": "0.1",
+    "resources": {
+        "homepage": "https://github.com/lexspice/ksp-engineering"
+    },
+    "download": "https://github.com/lexspice/ksp-engineering/archive/refs/heads/main.zip",
+    "$kref": "#/ckan/github/lexspice/ksp-engineering",
+    "tags": [
+        "config",
+        "control"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "MechJeb2" },
+        { "name": "KerbalEngineerRedux" }
+    ],
+    "install": [ {
+        "find": "KSPEngineering",
+        "install_to": "GameData"
+    } ]
+}
